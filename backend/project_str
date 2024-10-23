@@ -1,0 +1,15 @@
+backend/
+├── controllers/            # Handle game logic and user interactions
+│   └── gameController.js    # Game creation, moves, validation, etc.
+│   └── userController.js    # User signup/login
+├── models/                 # Database models
+│   └── gameModel.js         # Game schema for MongoDB
+│   └── userModel.js         # User schema for MongoDB
+├── routes/                 # API routes for games and users
+│   └── gameRoutes.js        # Routes for creating, joining, and resuming games
+│   └── userRoutes.js        # Routes for user management (register, login)
+├── config/                 # Configuration files
+│   └── db.js                # MongoDB connection setup
+├── server.js               # Main server setup with Express and Socket.IO
+├── package.json            # Project dependencies
+└── .env                    # Environment variables (DB connection, etc.)
